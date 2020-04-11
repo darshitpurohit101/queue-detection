@@ -1,3 +1,9 @@
+IMPORTANT LINKS:
+1. https://towardsdatascience.com/plug-and-play-object-detection-code-in-5-simple-steps-f1975804373e 
+[ here you will find the all explanation about the model and its step for implementation ]
+2. https://github.com/matterport/Mask_RCNN
+[ you will find code here from above link ]
+
 step1: Annotate the images in the " Image " folder and store exported json file in the same folder
 ( you can annotate image using http://www.robottos.x.ac.uk/~vgg/software/via/via.html )
 step2: Run generating_data.py to get the dataset in required file structure ( give "image" folder path and JSON file path as input ) 
@@ -10,6 +16,4 @@ step6: after execution it will ask for following inputs
  3. enter path for weight file? (Enter : path of weight.h5 file here OR Enter : "last" if you want to continue training from the last iteration)
  4. enter path for log file? (Enter : enter path whereever you want to store the model file after each iteration)
 
-IMPORTANT LINKS:
-1. https://towardsdatascience.com/plug-and-play-object-detection-code-in-5-simple-steps-f1975804373e 
-[ here you will find the all explanation about the model and its step for implementation ]
+
